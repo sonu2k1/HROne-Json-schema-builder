@@ -1,60 +1,51 @@
 HROne-Json-schema-builder
 <h3 align="center"><a href="https://glistening-frangollo-d07324.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 
-HROne - JSON Schema Builder
-This project is a dynamic JSON Schema Builder created as a submission for the HROne Frontend Intern hiring task. The application allows users to visually construct a JSON schema by adding, editing, and nesting fields, with a real-time preview of the resulting JSON structure.
+# HROne - JSON Schema Builder
 
-Live Demo
-[Link to your hosted application on Vercel/Netlify]
+This project is a dynamic **JSON Schema Builder** created as a submission for the **HROne Frontend Intern Hiring Task**. It enables users to visually construct a JSON schema by adding, editing, and nesting fields, with a real-time preview of the generated JSON structure.
 
-Features
-Dynamic Field Management: Easily add new fields to the schema at any level.
+## 🚀 Live Demo
 
-Field Deletion: Remove any field with a single click.
+[👉 Click here to view the live demo](https://your-live-link.vercel.app)  
+*(Replace this link with your deployed Vercel/Netlify URL)*
 
-Editable Keys: Modify the key/name of each field in real-time.
+---
 
-Type Selection: Assign a type to each field from a predefined list: String, Number, or Nested.
+## ✨ Features
 
-Recursive Nesting: Create complex, deeply-nested JSON structures by adding fields within a Nested type.
+- **Dynamic Field Management**: Easily add new fields to the schema at any level.
+- **Field Deletion**: Remove any field with a single click.
+- **Editable Keys**: Modify the key/name of each field in real-time.
+- **Type Selection**: Assign a type to each field from a predefined list: `String`, `Number`, or `Nested`.
+- **Recursive Nesting**: Create complex, deeply-nested JSON structures by nesting fields.
+- **Live JSON Preview**: Instantly view the resulting JSON structure in a dedicated preview tab. Default values are shown for string and number types.
 
-Live JSON Preview: A dedicated tab shows the generated JSON output, which updates instantly as you build the schema. Default values are used for String and Number types.
+---
 
-Tech Stack
-ReactJS: Core library for building the user interface.
+## 🛠 Tech Stack
 
-React Hook Form: For robust and performant state management of the dynamic and complex form structure.
+- **ReactJS** – Core library for building the UI.
+- **React Hook Form** – For managing complex dynamic forms with performance and ease.
+- **Ant Design (AntD)** – Provides ready-to-use components like Tabs, Inputs, Buttons, and Selects.
+- **JavaScript** – Main programming language.
+- **TailwindCSS** – *(Used in some components)* for utility-first CSS styling.
 
-Ant Design (AntD): Used for the UI components, including Tabs, Buttons, Inputs, and Selects, providing a clean and professional look out-of-the-box.
+---
 
-JavaScript: The primary programming language used.
+## ⚙️ Getting Started
 
-TailwindCSS: (Used for styling in the provided component) For utility-first CSS styling.
+Follow these steps to set up the project locally.
 
-Getting Started
-To get a local copy up and running, follow these simple steps.
+### ✅ Prerequisites
 
-Prerequisites
-You need to have Node.js and npm (or yarn) installed on your machine.
+Make sure you have the following installed on your machine:
 
-Node.js (which includes npm)
+- **Node.js** (which includes `npm`)
+- Optionally: `yarn`
 
-Installation
-Clone the repository:
+### 📦 Installation
 
-git clone https://github.com/your-username/your-repo-name.git
-
-Navigate to the project directory:
-
-cd your-repo-name
-
-Install NPM packages:
-
-npm install
-
-Running the Application
-To start the development server, run the following command:
-
-npm run dev
-
-This will start the application, and you can view it in your browser, usually at http://localhost:5173.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
