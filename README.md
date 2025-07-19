@@ -45,8 +45,6 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
-   Navigate to the project directory:
-
 
 2. Navigate to the project directory:
     ```bash
@@ -54,3 +52,17 @@ Make sure you have the following installed on your machine:
 3. Install dependencies:
      ```bash
       npm install
+
+▶️ Running the Application
+   Start the development server:
+ ```bas
+     npm run dev
+
+📁 Folder Structure
+ ```bash
+/src
+  ├── components       # Reusable UI components
+  ├── hooks            # Custom React Hooks (if any)
+  ├── utils            # Utility/helper functions
+  ├── App.jsx          # Root component
+  └── main.jsx         # Application entry point
