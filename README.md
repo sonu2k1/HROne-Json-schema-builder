@@ -1,14 +1,10 @@
-HROne-Json-schema-builder
-<h3 align="center"><a href="https://glistening-frangollo-d07324.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
-
 # HROne - JSON Schema Builder
 
 This project is a dynamic **JSON Schema Builder** created as a submission for the **HROne Frontend Intern Hiring Task**. It enables users to visually construct a JSON schema by adding, editing, and nesting fields, with a real-time preview of the generated JSON structure.
 
 ## 🚀 Live Demo
 
-[👉 Click here to view the live demo](https://your-live-link.vercel.app)  
-*(Replace this link with your deployed Vercel/Netlify URL)*
+<h3 align="center"><a href="https://glistening-frangollo-d07324.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 
 ---
 
@@ -49,3 +45,12 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+   Navigate to the project directory:
+
+
+2. Navigate to the project directory:
+    ```bash
+    cd your-repo-name
+3. Install dependencies:
+     ```bash
+      npm install
